@@ -1,0 +1,58 @@
+{
+    "productos":[
+        {
+            "nombre": "Transportadora",
+            "precio": "$1,300.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/images.jpg?raw=true",
+            "id":1
+        },
+        {
+            "nombre": "Tazón de alimento y bebida",
+            "precio": "$320.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/bowl.jpg?raw=true",
+            "id":2
+        },
+        {
+            "nombre": "Arnés de tela",
+            "precio": "$350.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/arnes.jpg?raw=true",
+            "id":3
+        },
+        {
+            "nombre": "Chaleco impermeable",
+            "precio": "$400.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/chaleco.jpg?raw=true",
+            "id":4
+        },
+        {
+            "nombre": "Camiseta rayas",
+            "precio": "$150.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/camiseta.jpg?raw=true",
+            "id":5
+        },
+        {
+            "nombre": "Hoodie ligera",
+            "precio": "$280.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/hoodie.jpg?raw=true",
+            "id":6
+        },
+        {
+            "nombre": "Sweater de punto",
+            "precio": "$1,300.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/sweater.jpg?raw=true",
+            "id":7
+        },
+        {
+            "nombre": "Disfraz de dino",
+            "precio": "$320.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/dino_suit.jpg?raw=true",
+            "id":8
+        },
+        {
+            "nombre": "Chamarra nieve<",
+            "precio": "$500.00 mxn",
+            "imagen":"https://github.com/6abef/images/blob/main/chamarra_rosa.jpg?raw=true",
+            "id":9
+        }
+    ]
+}

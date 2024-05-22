@@ -1,0 +1,224 @@
+.encabezado{
+	border-color: black;
+	font-family: "Jacquard 12", system-ui;
+	color: #403c4f;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size:xx-large;
+	/* background-color: #1d2617; */
+	background-color: #4bb370;
+	padding: 1% 0%;
+	text-align: center;
+	width: 100%;
+}
+
+.container_flex{
+	display: flex;
+	/* flex-wrap: wrap; */
+	width: 100%;
+	align-items: start;
+	justify-content:space-around;
+	flex-grow: 1;
+}
+
+
+.container_productos{
+	/* width: 50%; */
+	margin: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_productos h1{
+	text-align: center;
+	/* margin-top: 2%; */
+	margin-bottom: 5%;
+	font-family: "Texturina", serif;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.container_productos ul{
+	display: flex;
+	flex-wrap: wrap;
+	/* white-space: nowrap; */
+	gap: 10px;
+}
+
+.objetos_container{
+	display: flex;
+	justify-content: center;
+	overflow: scroll;
+	width: 600px;
+	height: 550px;
+}
+
+.objeto{
+	display: flex;
+	flex-direction: column;
+	background: #58d583;
+	gap: 5px;
+	align-items: center;
+	justify-content: center;
+	/* margin: 5% 1%; */
+	border-width: 2px;
+	border-style:solid;
+	border-radius: 15px;
+	border-color:black;
+	width: 175px;
+	font-family: "Texturina", serif;
+
+}
+
+.imagen{
+	width: 150px;
+	height: 90px;
+	margin-top: 5%;
+	border: 2px solid;
+	border-radius: 15px;
+}
+
+.final_objeto{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.descripcion_objeto p{
+	padding-left: 5%;
+}
+
+.final_objeto p{
+	padding-left: 5%;
+	font-weight: bolder;
+	font-size: medium;
+}
+
+.basura{
+	width: 20%;
+	height: 25%;
+	margin: 2px;
+}
+.container_formulario h1{
+	text-align: center;
+	font-family: "Texturina", serif;
+	font-weight: 400;
+  	font-style: normal;
+	font-size:large;
+	font-weight:bold;
+	padding: 3%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+#entrada{
+	display: flexbox;
+	width: 80%;
+	align-content: center;
+	padding: 2.5% 0%;
+	padding-left: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	border-color: #1d2617;
+	border-radius: 25px;
+	font-family: "Texturina", serif;
+	font-size: normal;
+}
+
+.botones{
+	display: flex;
+	align-items: center;
+	justify-content:center
+}
+
+#boton{
+	padding: 1% 0%;
+	padding-inline: 45px;
+	margin-inline: 10px;
+	margin-bottom: 5%;
+	border-radius: 10px;
+	border-color: #1d2617;
+	font-family: "Texturina", serif;
+	font-weight: bolder;
+	font-size: medium;
+}
+
+.enviarButton{
+	background: #1d2617;
+	color: white;
+}
+
+.limpiarButton{
+	background: white;
+}
+
+.final{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	border-color: black;
+	color: white;
+	font-family: "Jacquard 12", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size:xx-large;
+	padding: 5% 0%;
+	background-color: #1d2617;
+	text-align: center;
+}
+/*
+ofrecer de limpi
+protocolos de sanitización 
+protocolo 
+docientas personas
+inducción
+residuis biológicos
+elaborar 
+86
+8-1*/
+
+.final p{
+	font-family: "Texturina", serif;
+	font-size:medium;
+	font-weight:0;
+}
+
+.final p:nth-last-child(1){
+	font-weight: bold;
+	font-size: small;
+}
+
+
+@media(max-width: 768px){
+
+	/* .encabezado{
+		background-color: aqua;
+	} */
+
+	.container_flex{
+		display: flex;
+		flex-grow: 1; 
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	
+	.container_productos{
+		width: 80%;
+	}
+	.container_formulario{
+		width: 80%;
+	}
+
+	.objetos_container{
+		display: flex;
+		justify-content: center;
+		overflow: scroll;
+		width: 400px;
+		height: 300px;
+	}
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&display=swap');
+	    @import url('https://fonts.googleapis.com/css2?family=Cairo+Play&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Cairo+Play&family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Cairo+Play&family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+        
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Pacifico&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
+
+    </style>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <header class="encabezado">
+        &#128062  &#128062   &#128062     AluraGeek    &#128062  &#128062   &#128062
+    </header>
+
+    <body>
+        <div class="container_flex">
+            <section class="container_productos">
+                <h1>MIS PRODUCTOS: <br></h1>
+                <ul class="objetos_container">
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/images.jpg"alt="caja transportadora crema y azul">
+                        <div class="descripcion_objeto">
+                            <p class="nombre_del_producto">Transportadora</p>
+                            <div class="final_objeto">
+                                <p class="precio_del_producto">$1,300.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/bowl.jpg" alt="bowl metalico con cubierta cerámica y leyenda grabada">
+                        <div class="descripcion_objeto">
+                            <p>Tazón de alimento y bebida</p>
+                            <div class="final_objeto">
+                                <p>$320.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/arnes.jpg" alt="arnés negro de tela ">
+                        <div class="descripcion_objeto">
+                            <p>Arnés de tela</p>
+                            <div class="final_objeto">
+                                <p>$350.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/chaleco.jpg" alt="chaleco gris y amarillo impermeable">
+                        <div class="descripcion_objeto">
+                            <p class="nombre_del_producto">Chaleco impermeable</p>
+                            <div class="final_objeto">
+                                <p class="precio_del_producto">$400.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/camiseta.jpg" alt="camiseta de rayas beige y verde">
+                        <div class="descripcion_objeto">
+                            <p>Camiseta rayas</p>
+                            <div class="final_objeto">
+                                <p>$150.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/hoodie.jpg" alt="sudadera gris con capucha">
+                        <div class="descripcion_objeto">
+                            <p>Hoodie ligera</p>
+                            <div class="final_objeto">
+                                <p>$280.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/sweater.jpg" alt="Sueter de punto patron beige con blanco y rojo">
+                        <div class="descripcion_objeto">
+                            <p class="nombre_del_producto">Sweater de punto</p>
+                            <div class="final_objeto">
+                                <p class="precio_del_producto">$350.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/dino_suit.jpg" alt="disfraz de dinosaurio verde aterciopelado">
+                        <div class="descripcion_objeto">
+                            <p>Disfraz de dino</p>
+                            <div class="final_objeto">
+                                <p>$320.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="objeto">
+                        <img class="imagen" src="imagenes/chamarra_rosa.jpg" alt="chamarra rosa fosforecente para nieve">
+                        <div class="descripcion_objeto">
+                            <p>Chamarra nieve</p>
+                            <div class="final_objeto">
+                                <p>$500.00 mxn</p>
+                                <img class="basura" src="imagenes/trashbin.png" alt="eliminar">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="container_formulario">
+                <h1>AGREGAR<br>PRODUCTOS:</h1>
+                <div class="form_productos">
+                    <input class="nombre_producto" type="text" name="nombre" placeholder="Nombre..." required id="entrada">
+                    <input class="precio_producto" type="text" name="precio" placeholder="Precio..." required id="entrada">
+                    <input class="imagen_producto" type="text" name="imagen" placeholder="Imágen..." required id="entrada">
+                    <div class="botones">
+                        <button class="enviarButton" type="submit" id="boton">Enviar</button>
+                        <button class="limpiarButton" type="submit" id="boton">Limpiar</button>
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+    </body>
+
+
+    <footer class="final">
+        &#129460  &#129460  &#129460    AluraGeek    &#129460  &#129460  &#129460
+        <p>Desarrollado por Eunice Flores Rojas</p>
+        <br>
+        <p>Alura latam - 2024</p>
+    </footer>
+
+</html>
+
